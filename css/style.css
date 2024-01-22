@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.head {
+    width: 200px;
+    height: 200px;
+    background-color: #ffc0cb;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #000;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+.head > div:first-child{
+    display: flex;
+    gap: 50px;
+    top: -20px;
+    position: relative;
+    z-index: -1;
+    box-sizing: border-box;
+}
+.ear {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffc0cb;
+    border: 5px solid #000;
+}
+
+.head > div:nth-child(2){
+    display: flex;
+    gap: 24px;
+    margin: 0 30px;
+    position: relative;
+    top:-20%;
+
+}
+.eye {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+.pupil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.nose {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 35%;
+    background-color: #f57187;
+    position: relative;
+    top: -15%;
+}
+.nostril {
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #000;
+}
